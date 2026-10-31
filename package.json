@@ -1,0 +1,12 @@
+{
+  "name": "fiberguard-mongolia",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Academic fiber network digital twin for Mongolia",
+  "scripts": {
+    "dev": "python3 scripts/dev.py",
+    "build": "npm --prefix frontend run build",
+    "test": ".venv/bin/python -m pytest -q",
+    "test:e2e": "npm --prefix frontend run test:e2e"
+  }
+}

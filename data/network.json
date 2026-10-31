@@ -1,0 +1,1630 @@
+{
+  "metadata": {
+    "version": 1,
+    "seed": 42,
+    "currency": "USD",
+    "verified_routes": false,
+    "description": "Academic planning hypotheses. City coordinates approximate; cable lengths = haversine × terrain detour. Not surveyed road, rail or operator fiber routes.",
+    "distance_method": "Earth radius 6371.0088 km; detour: mountain 1.28, gobi 1.12, steppe 1.15",
+    "capex_method": "Estimated USD/km: mountain 23500, gobi 15000, steppe 17500"
+  },
+  "nodes": [
+    {
+      "id": "ub",
+      "name_mn": "Улаанбаатар",
+      "name_en": "Ulaanbaatar",
+      "province": "Улаанбаатар",
+      "lat": 47.918,
+      "lon": 106.917,
+      "node_type": "core",
+      "traffic_demand_mbps": 10000
+    },
+    {
+      "id": "olgii",
+      "name_mn": "Өлгий",
+      "name_en": "Ölgii",
+      "province": "Баян-Өлгий",
+      "lat": 48.968,
+      "lon": 89.962,
+      "node_type": "regional",
+      "traffic_demand_mbps": 650
+    },
+    {
+      "id": "khovd",
+      "name_mn": "Ховд",
+      "name_en": "Khovd",
+      "province": "Ховд",
+      "lat": 48.005,
+      "lon": 91.641,
+      "node_type": "regional",
+      "traffic_demand_mbps": 800
+    },
+    {
+      "id": "ulaangom",
+      "name_mn": "Улаангом",
+      "name_en": "Ulaangom",
+      "province": "Увс",
+      "lat": 49.981,
+      "lon": 92.067,
+      "node_type": "regional",
+      "traffic_demand_mbps": 950
+    },
+    {
+      "id": "uliastai",
+      "name_mn": "Улиастай",
+      "name_en": "Uliastai",
+      "province": "Завхан",
+      "lat": 47.742,
+      "lon": 96.844,
+      "node_type": "regional",
+      "traffic_demand_mbps": 1100
+    },
+    {
+      "id": "altai",
+      "name_mn": "Алтай",
+      "name_en": "Altai",
+      "province": "Говь-Алтай",
+      "lat": 46.372,
+      "lon": 96.258,
+      "node_type": "regional",
+      "traffic_demand_mbps": 1250
+    },
+    {
+      "id": "murun",
+      "name_mn": "Мөрөн",
+      "name_en": "Mörön",
+      "province": "Хөвсгөл",
+      "lat": 49.635,
+      "lon": 100.162,
+      "node_type": "regional",
+      "traffic_demand_mbps": 1400
+    },
+    {
+      "id": "tsetserleg",
+      "name_mn": "Цэцэрлэг",
+      "name_en": "Tsetserleg",
+      "province": "Архангай",
+      "lat": 47.476,
+      "lon": 101.451,
+      "node_type": "regional",
+      "traffic_demand_mbps": 1550
+    },
+    {
+      "id": "bayankhongor",
+      "name_mn": "Баянхонгор",
+      "name_en": "Bayankhongor",
+      "province": "Баянхонгор",
+      "lat": 46.194,
+      "lon": 100.718,
+      "node_type": "regional",
+      "traffic_demand_mbps": 1700
+    },
+    {
+      "id": "arvaikheer",
+      "name_mn": "Арвайхээр",
+      "name_en": "Arvaikheer",
+      "province": "Өвөрхангай",
+      "lat": 46.263,
+      "lon": 102.775,
+      "node_type": "regional",
+      "traffic_demand_mbps": 1850
+    },
+    {
+      "id": "bulgan",
+      "name_mn": "Булган",
+      "name_en": "Bulgan",
+      "province": "Булган",
+      "lat": 48.811,
+      "lon": 103.534,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2000
+    },
+    {
+      "id": "erdenet",
+      "name_mn": "Эрдэнэт",
+      "name_en": "Erdenet",
+      "province": "Орхон",
+      "lat": 49.027,
+      "lon": 104.044,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2150
+    },
+    {
+      "id": "darkhan",
+      "name_mn": "Дархан",
+      "name_en": "Darkhan",
+      "province": "Дархан-Уул",
+      "lat": 49.487,
+      "lon": 105.923,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2300
+    },
+    {
+      "id": "sukhbaatar",
+      "name_mn": "Сүхбаатар",
+      "name_en": "Sükhbaatar",
+      "province": "Сэлэнгэ",
+      "lat": 50.236,
+      "lon": 106.207,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2450
+    },
+    {
+      "id": "zuunmod",
+      "name_mn": "Зуунмод",
+      "name_en": "Zuunmod",
+      "province": "Төв",
+      "lat": 47.706,
+      "lon": 106.952,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2600
+    },
+    {
+      "id": "mandalgovi",
+      "name_mn": "Мандалговь",
+      "name_en": "Mandalgovi",
+      "province": "Дундговь",
+      "lat": 45.763,
+      "lon": 106.271,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2750
+    },
+    {
+      "id": "dalanzadgad",
+      "name_mn": "Даланзадгад",
+      "name_en": "Dalanzadgad",
+      "province": "Өмнөговь",
+      "lat": 43.57,
+      "lon": 104.425,
+      "node_type": "regional",
+      "traffic_demand_mbps": 2900
+    },
+    {
+      "id": "choir",
+      "name_mn": "Чойр",
+      "name_en": "Choir",
+      "province": "Говьсүмбэр",
+      "lat": 46.361,
+      "lon": 108.361,
+      "node_type": "regional",
+      "traffic_demand_mbps": 3050
+    },
+    {
+      "id": "sainshand",
+      "name_mn": "Сайншанд",
+      "name_en": "Sainshand",
+      "province": "Дорноговь",
+      "lat": 44.895,
+      "lon": 110.122,
+      "node_type": "regional",
+      "traffic_demand_mbps": 3200
+    },
+    {
+      "id": "chinggis",
+      "name_mn": "Чингис",
+      "name_en": "Chinggis",
+      "province": "Хэнтий",
+      "lat": 47.319,
+      "lon": 110.655,
+      "node_type": "regional",
+      "traffic_demand_mbps": 3350
+    },
+    {
+      "id": "baruunurt",
+      "name_mn": "Баруун-Урт",
+      "name_en": "Baruun-Urt",
+      "province": "Сүхбаатар",
+      "lat": 46.678,
+      "lon": 113.279,
+      "node_type": "regional",
+      "traffic_demand_mbps": 3500
+    },
+    {
+      "id": "choibalsan",
+      "name_mn": "Чойбалсан",
+      "name_en": "Choibalsan",
+      "province": "Дорнод",
+      "lat": 48.077,
+      "lon": 114.535,
+      "node_type": "regional",
+      "traffic_demand_mbps": 3650
+    }
+  ],
+  "edges": [
+    {
+      "id": "fg-001",
+      "source": "olgii",
+      "target": "khovd",
+      "distance_km": 209.451,
+      "cost_usd": 4922098.5,
+      "terrain": "mountain",
+      "risk_score": 0.52,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-01",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 1.047255,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.968,
+          89.962
+        ],
+        [
+          48.426500000000004,
+          90.75150000000001
+        ],
+        [
+          48.005,
+          91.641
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-002",
+      "source": "olgii",
+      "target": "ulaangom",
+      "distance_km": 242.24,
+      "cost_usd": 5692640.0,
+      "terrain": "mountain",
+      "risk_score": 0.555,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-01",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 1.2112,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.968,
+          89.962
+        ],
+        [
+          49.474500000000006,
+          90.98949999999999
+        ],
+        [
+          49.981,
+          92.067
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-003",
+      "source": "khovd",
+      "target": "ulaangom",
+      "distance_km": 284.042,
+      "cost_usd": 6674987.0,
+      "terrain": "mountain",
+      "risk_score": 0.59,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-02",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 1.42021,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.005,
+          91.641
+        ],
+        [
+          49.053000000000004,
+          91.854
+        ],
+        [
+          49.981,
+          92.067
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-004",
+      "source": "khovd",
+      "target": "altai",
+      "distance_km": 503.327,
+      "cost_usd": 11828184.5,
+      "terrain": "mountain",
+      "risk_score": 0.625,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-02",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 2.516635,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.005,
+          91.641
+        ],
+        [
+          47.1285,
+          93.9745
+        ],
+        [
+          46.372,
+          96.258
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-005",
+      "source": "khovd",
+      "target": "uliastai",
+      "distance_km": 498.046,
+      "cost_usd": 11704081.0,
+      "terrain": "mountain",
+      "risk_score": 0.66,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-03",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 2.49023,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.005,
+          91.641
+        ],
+        [
+          47.8735,
+          94.2925
+        ],
+        [
+          47.742,
+          96.844
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-006",
+      "source": "ulaangom",
+      "target": "uliastai",
+      "distance_km": 549.036,
+      "cost_usd": 12902346.0,
+      "terrain": "mountain",
+      "risk_score": 0.695,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-03",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 2.74518,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.981,
+          92.067
+        ],
+        [
+          48.9215,
+          94.4055
+        ],
+        [
+          47.742,
+          96.844
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-007",
+      "source": "ulaangom",
+      "target": "murun",
+      "distance_km": 744.81,
+      "cost_usd": 17503035.0,
+      "terrain": "mountain",
+      "risk_score": 0.73,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-04",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 3.72405,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.981,
+          92.067
+        ],
+        [
+          49.748,
+          96.08949999999999
+        ],
+        [
+          49.635,
+          100.162
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-008",
+      "source": "uliastai",
+      "target": "altai",
+      "distance_km": 203.1,
+      "cost_usd": 4772850.0,
+      "terrain": "mountain",
+      "risk_score": 0.52,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-04",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 1.0155,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.742,
+          96.844
+        ],
+        [
+          47.057,
+          96.55099999999999
+        ],
+        [
+          46.372,
+          96.258
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-009",
+      "source": "uliastai",
+      "target": "murun",
+      "distance_km": 411.979,
+      "cost_usd": 9681506.5,
+      "terrain": "mountain",
+      "risk_score": 0.555,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-05",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 2.059895,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.742,
+          96.844
+        ],
+        [
+          48.7485,
+          98.528
+        ],
+        [
+          49.635,
+          100.162
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-010",
+      "source": "uliastai",
+      "target": "tsetserleg",
+      "distance_km": 398.569,
+      "cost_usd": 6974957.5,
+      "terrain": "steppe",
+      "risk_score": 0.24,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-05",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.992845,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.742,
+          96.844
+        ],
+        [
+          47.54899999999999,
+          99.19749999999999
+        ],
+        [
+          47.476,
+          101.451
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-011",
+      "source": "altai",
+      "target": "bayankhongor",
+      "distance_km": 439.374,
+      "cost_usd": 10325289.0,
+      "terrain": "mountain",
+      "risk_score": 0.625,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-06",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 2.19687,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.372,
+          96.258
+        ],
+        [
+          46.283,
+          98.438
+        ],
+        [
+          46.194,
+          100.718
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-012",
+      "source": "altai",
+      "target": "tsetserleg",
+      "distance_km": 528.563,
+      "cost_usd": 12421230.5,
+      "terrain": "mountain",
+      "risk_score": 0.66,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-06",
+      "shared_risk_group": "western-pass",
+      "latency_ms": 2.642815,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.372,
+          96.258
+        ],
+        [
+          46.984,
+          98.8295
+        ],
+        [
+          47.476,
+          101.451
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-013",
+      "source": "murun",
+      "target": "tsetserleg",
+      "distance_km": 296.844,
+      "cost_usd": 5194770.0,
+      "terrain": "steppe",
+      "risk_score": 0.345,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-07",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.48422,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.635,
+          100.162
+        ],
+        [
+          48.49549999999999,
+          100.8065
+        ],
+        [
+          47.476,
+          101.451
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-014",
+      "source": "murun",
+      "target": "bulgan",
+      "distance_km": 300.652,
+      "cost_usd": 5261410.0,
+      "terrain": "steppe",
+      "risk_score": 0.38,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-07",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.50326,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.635,
+          100.162
+        ],
+        [
+          49.223,
+          101.87300000000002
+        ],
+        [
+          48.811,
+          103.534
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-015",
+      "source": "murun",
+      "target": "erdenet",
+      "distance_km": 332.673,
+      "cost_usd": 5821777.5,
+      "terrain": "steppe",
+      "risk_score": 0.17,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-08",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.663365,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.635,
+          100.162
+        ],
+        [
+          49.391000000000005,
+          102.153
+        ],
+        [
+          49.027,
+          104.044
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-016",
+      "source": "tsetserleg",
+      "target": "bayankhongor",
+      "distance_km": 176.027,
+      "cost_usd": 3080472.5,
+      "terrain": "steppe",
+      "risk_score": 0.205,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-08",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 0.880135,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.476,
+          101.451
+        ],
+        [
+          46.775,
+          101.0345
+        ],
+        [
+          46.194,
+          100.718
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-017",
+      "source": "tsetserleg",
+      "target": "arvaikheer",
+      "distance_km": 193.532,
+      "cost_usd": 3386810.0,
+      "terrain": "steppe",
+      "risk_score": 0.24,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-09",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 0.96766,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.476,
+          101.451
+        ],
+        [
+          46.8695,
+          102.088
+        ],
+        [
+          46.263,
+          102.775
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-018",
+      "source": "tsetserleg",
+      "target": "bulgan",
+      "distance_km": 246.422,
+      "cost_usd": 4312385.0,
+      "terrain": "steppe",
+      "risk_score": 0.275,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-09",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.23211,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.476,
+          101.451
+        ],
+        [
+          48.203500000000005,
+          102.4925
+        ],
+        [
+          48.811,
+          103.534
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-019",
+      "source": "bayankhongor",
+      "target": "arvaikheer",
+      "distance_km": 177.421,
+      "cost_usd": 2661315.0,
+      "terrain": "gobi",
+      "risk_score": 0.39,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-10",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 0.887105,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.194,
+          100.718
+        ],
+        [
+          46.168499999999995,
+          101.7715
+        ],
+        [
+          46.263,
+          102.775
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-020",
+      "source": "bayankhongor",
+      "target": "dalanzadgad",
+      "distance_km": 462.281,
+      "cost_usd": 6934215.0,
+      "terrain": "gobi",
+      "risk_score": 0.425,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-10",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 2.311405,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.194,
+          100.718
+        ],
+        [
+          44.882000000000005,
+          102.6215
+        ],
+        [
+          43.57,
+          104.425
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-021",
+      "source": "arvaikheer",
+      "target": "bulgan",
+      "distance_km": 332.342,
+      "cost_usd": 5815985.0,
+      "terrain": "steppe",
+      "risk_score": 0.38,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-11",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.66171,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.263,
+          102.775
+        ],
+        [
+          47.597,
+          103.10450000000002
+        ],
+        [
+          48.811,
+          103.534
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-022",
+      "source": "arvaikheer",
+      "target": "ub",
+      "distance_km": 418.041,
+      "cost_usd": 7315717.5,
+      "terrain": "steppe",
+      "risk_score": 0.17,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-11",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 2.090205,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.263,
+          102.775
+        ],
+        [
+          47.030499999999996,
+          104.821
+        ],
+        [
+          47.918,
+          106.917
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-023",
+      "source": "arvaikheer",
+      "target": "mandalgovi",
+      "distance_km": 308.691,
+      "cost_usd": 4630365.0,
+      "terrain": "gobi",
+      "risk_score": 0.285,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-12",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 1.543455,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.263,
+          102.775
+        ],
+        [
+          46.013,
+          104.523
+        ],
+        [
+          45.763,
+          106.271
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-024",
+      "source": "bulgan",
+      "target": "erdenet",
+      "distance_km": 50.985,
+      "cost_usd": 892237.5,
+      "terrain": "steppe",
+      "risk_score": 0.24,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-12",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 0.254925,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.811,
+          103.534
+        ],
+        [
+          48.979,
+          103.81400000000001
+        ],
+        [
+          49.027,
+          104.044
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-025",
+      "source": "bulgan",
+      "target": "ub",
+      "distance_km": 309.233,
+      "cost_usd": 5411577.5,
+      "terrain": "steppe",
+      "risk_score": 0.275,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-13",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.546165,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          48.811,
+          103.534
+        ],
+        [
+          48.3045,
+          105.27550000000001
+        ],
+        [
+          47.918,
+          106.917
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-026",
+      "source": "erdenet",
+      "target": "darkhan",
+      "distance_km": 167.483,
+      "cost_usd": 2930952.5,
+      "terrain": "steppe",
+      "risk_score": 0.31,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-13",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 0.837415,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.027,
+          104.044
+        ],
+        [
+          49.257000000000005,
+          104.9335
+        ],
+        [
+          49.487,
+          105.923
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-027",
+      "source": "erdenet",
+      "target": "ub",
+      "distance_km": 281.816,
+      "cost_usd": 4931780.0,
+      "terrain": "steppe",
+      "risk_score": 0.345,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-14",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.40908,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.027,
+          104.044
+        ],
+        [
+          48.5325,
+          105.4555
+        ],
+        [
+          47.918,
+          106.917
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-028",
+      "source": "darkhan",
+      "target": "sukhbaatar",
+      "distance_km": 98.597,
+      "cost_usd": 1725447.5,
+      "terrain": "steppe",
+      "risk_score": 0.38,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-14",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 0.492985,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.487,
+          105.923
+        ],
+        [
+          49.8015,
+          106.065
+        ],
+        [
+          50.236,
+          106.207
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-029",
+      "source": "darkhan",
+      "target": "ub",
+      "distance_km": 217.461,
+      "cost_usd": 3805567.5,
+      "terrain": "steppe",
+      "risk_score": 0.17,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-15",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.087305,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          49.487,
+          105.923
+        ],
+        [
+          48.7025,
+          106.44500000000001
+        ],
+        [
+          47.918,
+          106.917
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-030",
+      "source": "sukhbaatar",
+      "target": "ub",
+      "distance_km": 302.316,
+      "cost_usd": 5290530.0,
+      "terrain": "steppe",
+      "risk_score": 0.205,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-15",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.51158,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          50.236,
+          106.207
+        ],
+        [
+          49.137,
+          106.612
+        ],
+        [
+          47.918,
+          106.917
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-031",
+      "source": "ub",
+      "target": "zuunmod",
+      "distance_km": 27.275,
+      "cost_usd": 477312.5,
+      "terrain": "steppe",
+      "risk_score": 0.24,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-16",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 0.136375,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.918,
+          106.917
+        ],
+        [
+          47.751999999999995,
+          106.8845
+        ],
+        [
+          47.706,
+          106.952
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-032",
+      "source": "ub",
+      "target": "chinggis",
+      "distance_km": 331.141,
+      "cost_usd": 5794967.5,
+      "terrain": "steppe",
+      "risk_score": 0.275,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-16",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.655705,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.918,
+          106.917
+        ],
+        [
+          47.6185,
+          108.761
+        ],
+        [
+          47.319,
+          110.655
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-033",
+      "source": "ub",
+      "target": "choir",
+      "distance_km": 235.398,
+      "cost_usd": 4119465.0,
+      "terrain": "steppe",
+      "risk_score": 0.31,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-17",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.17699,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.918,
+          106.917
+        ],
+        [
+          47.1995,
+          107.63900000000001
+        ],
+        [
+          46.361,
+          108.361
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-034",
+      "source": "zuunmod",
+      "target": "mandalgovi",
+      "distance_km": 255.525,
+      "cost_usd": 4471687.5,
+      "terrain": "steppe",
+      "risk_score": 0.345,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-17",
+      "shared_risk_group": "central-trunk",
+      "latency_ms": 1.277625,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.706,
+          106.952
+        ],
+        [
+          46.674499999999995,
+          106.63650000000001
+        ],
+        [
+          45.763,
+          106.271
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-035",
+      "source": "zuunmod",
+      "target": "choir",
+      "distance_km": 211.324,
+      "cost_usd": 3698170.0,
+      "terrain": "steppe",
+      "risk_score": 0.38,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-18",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.05662,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.706,
+          106.952
+        ],
+        [
+          47.033500000000004,
+          107.70649999999999
+        ],
+        [
+          46.361,
+          108.361
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-036",
+      "source": "zuunmod",
+      "target": "chinggis",
+      "distance_km": 323.602,
+      "cost_usd": 5663035.0,
+      "terrain": "steppe",
+      "risk_score": 0.17,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-18",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.61801,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.706,
+          106.952
+        ],
+        [
+          47.572500000000005,
+          108.7535
+        ],
+        [
+          47.319,
+          110.655
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-037",
+      "source": "mandalgovi",
+      "target": "dalanzadgad",
+      "distance_km": 318.294,
+      "cost_usd": 4774410.0,
+      "terrain": "gobi",
+      "risk_score": 0.285,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-19",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 1.59147,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          45.763,
+          106.271
+        ],
+        [
+          44.6065,
+          105.323
+        ],
+        [
+          43.57,
+          104.425
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-038",
+      "source": "mandalgovi",
+      "target": "choir",
+      "distance_km": 195.351,
+      "cost_usd": 2930265.0,
+      "terrain": "gobi",
+      "risk_score": 0.32,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-19",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 0.976755,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          45.763,
+          106.271
+        ],
+        [
+          46.062,
+          107.316
+        ],
+        [
+          46.361,
+          108.361
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-039",
+      "source": "dalanzadgad",
+      "target": "sainshand",
+      "distance_km": 534.337,
+      "cost_usd": 8015055.0,
+      "terrain": "gobi",
+      "risk_score": 0.355,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-20",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 2.671685,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          43.57,
+          104.425
+        ],
+        [
+          44.292500000000004,
+          107.2985
+        ],
+        [
+          44.895,
+          110.122
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-040",
+      "source": "choir",
+      "target": "sainshand",
+      "distance_km": 238.429,
+      "cost_usd": 3576435.0,
+      "terrain": "gobi",
+      "risk_score": 0.39,
+      "disaster_exposure": 0.5,
+      "corridor_id": "PLAN-20",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 1.192145,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.361,
+          108.361
+        ],
+        [
+          45.568,
+          109.2915
+        ],
+        [
+          44.895,
+          110.122
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-041",
+      "source": "choir",
+      "target": "chinggis",
+      "distance_km": 235.083,
+      "cost_usd": 4113952.5,
+      "terrain": "steppe",
+      "risk_score": 0.345,
+      "disaster_exposure": 0.6,
+      "corridor_id": "PLAN-21",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.175415,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.361,
+          108.361
+        ],
+        [
+          46.84,
+          109.45800000000001
+        ],
+        [
+          47.319,
+          110.655
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-042",
+      "source": "sainshand",
+      "target": "baruunurt",
+      "distance_km": 352.762,
+      "cost_usd": 5291430.0,
+      "terrain": "gobi",
+      "risk_score": 0.46,
+      "disaster_exposure": 0.7,
+      "corridor_id": "PLAN-21",
+      "shared_risk_group": "southern-corridor",
+      "latency_ms": 1.76381,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          44.895,
+          110.122
+        ],
+        [
+          45.846500000000006,
+          111.6755
+        ],
+        [
+          46.678,
+          113.279
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-043",
+      "source": "chinggis",
+      "target": "baruunurt",
+      "distance_km": 243.067,
+      "cost_usd": 4253672.5,
+      "terrain": "steppe",
+      "risk_score": 0.17,
+      "disaster_exposure": 0.2,
+      "corridor_id": "PLAN-22",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.215335,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.319,
+          110.655
+        ],
+        [
+          46.9385,
+          111.967
+        ],
+        [
+          46.678,
+          113.279
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-044",
+      "source": "chinggis",
+      "target": "choibalsan",
+      "distance_km": 347.668,
+      "cost_usd": 6084190.0,
+      "terrain": "steppe",
+      "risk_score": 0.205,
+      "disaster_exposure": 0.3,
+      "corridor_id": "PLAN-22",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.73834,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          47.319,
+          110.655
+        ],
+        [
+          47.698,
+          112.62
+        ],
+        [
+          48.077,
+          114.535
+        ]
+      ],
+      "theoretical": false
+    },
+    {
+      "id": "fg-045",
+      "source": "baruunurt",
+      "target": "choibalsan",
+      "distance_km": 209.355,
+      "cost_usd": 3663712.5,
+      "terrain": "steppe",
+      "risk_score": 0.24,
+      "disaster_exposure": 0.4,
+      "corridor_id": "PLAN-23",
+      "shared_risk_group": "eastern-corridor",
+      "latency_ms": 1.046775,
+      "status": "planned",
+      "distance_source": "estimated_haversine_detour",
+      "route_source": "synthetic_planning_polyline",
+      "geometry": [
+        [
+          46.678,
+          113.279
+        ],
+        [
+          47.4375,
+          113.957
+        ],
+        [
+          48.077,
+          114.535
+        ]
+      ],
+      "theoretical": false
+    }
+  ]
+}
