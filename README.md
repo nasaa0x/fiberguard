@@ -191,3 +191,4 @@ Algorithm implementations use the official [NetworkX MST](https://networkx.org/d
 
 Future improvements: validated operator / road / railway geometry, surveyed costs, ILP augmentation with optimality bounds, hazard rasters and geodesic buffers, capacity / traffic flow and node-failure models, demand-weighted availability, separate repair-cost / restoration-time models, PostGIS persistence, authentication, and a persistent simulation audit trail.
 # fiberguard
+# fiberguard
